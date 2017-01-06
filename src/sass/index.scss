@@ -6,10 +6,24 @@ body, html {
 .u-dash {
 	text-align: center;
 	color: peru;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 30%;
+	margin: 0 auto;
+	&:after{
+		width: 40%;
+		content: "";
+		border: 1px solid;
+
+	}
+	&:before{
+		width: 40%;
+		content: "";
+		border: 1px solid;
+	}
 }
 .u-container{
-	max-width:1140px;
-	margin: auto;
 	padding:0 4%;
 }
 
